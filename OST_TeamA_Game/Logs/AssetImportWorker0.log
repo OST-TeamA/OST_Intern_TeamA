@@ -1,0 +1,322 @@
+Unity Editor version:    2021.3.8f1 (b30333d56e81)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rs/Desktop/インターン/Git/OST_TeamA_Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52056
+Successfully changed project path to: /Users/rs/Desktop/インターン/Git/OST_TeamA_Game
+/Users/rs/Desktop/インターン/Git/OST_TeamA_Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 187.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rs/Desktop/インターン/Git/OST_TeamA_Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56463
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002436 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 107.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/rs/Desktop/インターン/Git/OST_TeamA_Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/rs/Desktop/インターン/Git/OST_TeamA_Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.1 KB). Loaded Objects now: 3834.
+Memory consumption went from 230.2 MB to 230.1 MB.
+Total: 3.558583 ms (FindLiveObjects: 0.150417 ms CreateObjectMapping: 0.063500 ms MarkObjects: 3.048584 ms  DeleteObjects: 0.294959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20832.353887 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Promotion.jpg
+  artifactKey: Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Promotion.jpg using Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674fc01a1de995620aedeef2e62b979d') in 0.818901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.473168 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs
+  artifactKey: Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs using Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531d5787f328a1d6394128649c6f687d') in 0.001007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062001 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab
+  artifactKey: Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab using Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcce300d2b3c6d74ee544288cd3b0843') in 0.565172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab
+  artifactKey: Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab using Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd723035473b59e8cc39a2cc91e07ec2d') in 0.533725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.486155 seconds.
+  path: Assets/Small Monster
+  artifactKey: Guid(2e41dcf39321c4b22b60ffe3981fa756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Small Monster using Guid(2e41dcf39321c4b22b60ffe3981fa756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7998a5d2c2c09026e7e84aa016acb010') in 0.000783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.489081 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material
+  artifactKey: Guid(ae5f1d2c5fae36640a4fb67668052369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material using Guid(ae5f1d2c5fae36640a4fb67668052369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6ee3ea99027beede3f96d734701001') in 0.001463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.085410 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab
+  artifactKey: Guid(349a7771185191b418b97051fee521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab using Guid(349a7771185191b418b97051fee521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbe4da3c3031c7c25d4aa23d6db8870') in 0.001002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016791 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab
+  artifactKey: Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab using Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1d244a1cae4ee679a4c9bb89660e70') in 0.401400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab
+  artifactKey: Guid(f06068434cc02c941bd2b282c8d154ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab using Guid(f06068434cc02c941bd2b282c8d154ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aa4a04a43f681277a0a5abebe171a4') in 0.208099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS03Polyart.prefab
+  artifactKey: Guid(f0aae4c8b38e02e48a4124483b105340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS03Polyart.prefab using Guid(f0aae4c8b38e02e48a4124483b105340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01868f53f001ecfb7e8e702a7e308825') in 0.008717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS06PBR.prefab
+  artifactKey: Guid(3617e4093ca8d5145986d37c89cfd692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS06PBR.prefab using Guid(3617e4093ca8d5145986d37c89cfd692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0c2ff1eaace478ae548c3603bcfd73') in 0.008683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab
+  artifactKey: Guid(f86f26a978127384b85b71f1235c8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab using Guid(f86f26a978127384b85b71f1235c8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9adebcae66621e93f77764c8f938f1') in 0.007971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab
+  artifactKey: Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab using Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43acb98c4e8b2dc071749d2341e21c0d') in 0.029491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.592851 seconds.
+  path: Assets/Player
+  artifactKey: Guid(4a6229165307740148d195ed7792f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player using Guid(4a6229165307740148d195ed7792f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813b61d6865353271fac835b39e6310d') in 0.000787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.948266 seconds.
+  path: Assets/amusedART
+  artifactKey: Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/amusedART using Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f030d9aa947a1bc0847773b8b8f1141') in 0.000900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.952702 seconds.
+  path: Assets/amusedART/Monster Bat
+  artifactKey: Guid(efba43754eb7743b4a5b80436c7a11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/amusedART/Monster Bat using Guid(efba43754eb7743b4a5b80436c7a11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3da8251b405cfac8956d6b6b2eead95') in 0.001821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.937257 seconds.
+  path: Assets/amusedART/Monster Bat/Bat Material.mat
+  artifactKey: Guid(6e89b9b30bff9b84d9c5569b5065d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/amusedART/Monster Bat/Bat Material.mat using Guid(6e89b9b30bff9b84d9c5569b5065d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7bf79b29e86276e244be0566918b33') in 0.461224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/amusedART/Monster Bat/Monster_Bat.FBX
+  artifactKey: Guid(389bf68e76b0b4a46a72c2d48aa1b9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/amusedART/Monster Bat/Monster_Bat.FBX using Guid(389bf68e76b0b4a46a72c2d48aa1b9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cd967a22fbc3aac9dc81d3b0d555b6') in 0.112794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.049472 seconds.
+  path: Assets/SmallMonster
+  artifactKey: Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SmallMonster using Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeaaa6c3dbfebc4ee31024dfca10633') in 0.000927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.336855 seconds.
+  path: Assets/Small Monster1
+  artifactKey: Guid(2e41dcf39321c4b22b60ffe3981fa756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Small Monster1 using Guid(2e41dcf39321c4b22b60ffe3981fa756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30717d14b09b28efd04c21c5e27853d') in 0.000898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.037210 seconds.
+  path: Assets/SmallMonster2
+  artifactKey: Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SmallMonster2 using Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87d1e79845c5e0d3f30dea1c2948999') in 0.001040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.681767 seconds.
+  path: Assets/Small Monster2
+  artifactKey: Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Small Monster2 using Guid(d12845a413ecb40cea6f895b6e60de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb21f932ea36be2ae6dc5d67cb584ec5') in 0.000923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.624032 seconds.
+  path: Assets/RPG_Orchestral_Essentials_MFX_Sample
+  artifactKey: Guid(18227475d853e4afc96a43de425d22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_Orchestral_Essentials_MFX_Sample using Guid(18227475d853e4afc96a43de425d22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae4d685f3b1cf98d6ba20a45b930018') in 0.001974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.672761 seconds.
+  path: Assets/RPG_BGM
+  artifactKey: Guid(18227475d853e4afc96a43de425d22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG_BGM using Guid(18227475d853e4afc96a43de425d22bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051fe860bd0a749fdd17bd3ef5dab87f') in 0.000941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.401897 seconds.
+  path: Assets/RPGPP_LT
+  artifactKey: Guid(781b36aff863f4664b25c88a2e0df867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT using Guid(781b36aff863f4664b25c88a2e0df867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db05cc23bd4cc48bdb538d2631738ee3') in 0.002010 seconds 
