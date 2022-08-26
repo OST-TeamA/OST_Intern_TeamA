@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637970737000000000
+      ticks: 637970762310000000
     m_Hash: 1071124706
   m_LockFileStatus:
     m_FilePath: "/Users/rs/Desktop/\u30A4\u30F3\u30BF\u30FC\u30F3/Git/OST_TeamA_Game/Packages/packages-lock.json"
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637970737040000000
+      ticks: 637970762310000000
     m_Hash: 2593603777
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
